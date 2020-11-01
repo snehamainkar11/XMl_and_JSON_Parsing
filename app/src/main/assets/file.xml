@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<records>
+    <employee>
+        <name>Shreya</name>
+        <surname>Samant</surname>
+        <address>Pune</address>
+        <contact>9978968757</contact>
+        <salary>50000</salary>
+    </employee>
+    <employee>
+        <name>Riya </name>
+        <surname>Roy</surname>
+        <address>Mumbai</address>
+        <contact>9578968757</contact>
+        <salary>60000</salary>
+    </employee>
+    <employee>
+        <name>Mita</name>
+        <surname>Thakur</surname>
+        <address>Delhi</address>
+        <contact>9378968666</contact>
+        <salary>70000</salary>
+    </employee>
+    <employee>
+        <name>Hima </name>
+        <surname>Kadam</surname>
+        <address>Kankavli</address>
+        <contact>8878968878</contact>
+        <salary>60000</salary>
+    </employee>
+    <employee>
+        <name>Abhir</name>
+        <surname>Patil</surname>
+        <address>Chennai</address>
+        <contact>9978968765</contact>
+
+        <salary>70000</salary>
+    </employee>
+    <employee>
+        <name>Divya </name>
+        <surname>Pawar</surname>
+        <address>Nagpur</address>
+        <contact>9878968757</contact>
+        <salary>60000</salary>
+    </employee>
+    <employee>
+        <name>Divyanka </name>
+        <surname>Roy</surname>
+        <address>Nagpur</address>
+        <contact>9878968757</contact>
+        <salary>60000</salary>
+    </employee>
+
+    <employee>
+        <name>Amit</name>
+        <surname>Kumar</surname>
+        <address>Goa</address>
+        <contact>9878968757</contact>
+        <salary>70000</salary>
+    </employee>
+</records>
