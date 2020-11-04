@@ -10,24 +10,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
-        android:text="JSON PARSER "
-        android:textColor="#00BCD4"
-        android:textSize="40dp"
+        android:text="JSON DATA "
+        android:textColor="#3F51B5"
+        android:textSize="40sp"
         android:textStyle="bold" />
+
     <ListView
         android:id="@+id/students"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:dividerHeight="1dp" />
-    <Button
-        android:id="@+id/xmlparser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/white"
-        android:background="#3F51B5"
-        android:textSize="22sp"
-        android:padding="8dp"
-        android:text="XML Parser"
-        />
+
+
 </LinearLayout>

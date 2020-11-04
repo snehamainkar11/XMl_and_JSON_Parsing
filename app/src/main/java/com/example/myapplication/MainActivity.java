@@ -14,7 +14,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 public class MainActivity extends AppCompatActivity {
-    Button xmlparse;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,15 +37,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (JSONException ex) {
             Log.e("JsonParser ", "Exception", ex);
         }
-        xmlparse=findViewById(R.id.xmlparser);
-        xmlparse.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i=new Intent(getApplicationContext(),XmlParser.class);
-                startActivity(i);
 
-            }
-        });
     }
     private String getListData() {
         String json_stu1 = "{ \"Students\" :[" +
